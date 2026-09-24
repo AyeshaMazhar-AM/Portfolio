@@ -17,6 +17,7 @@ document.querySelectorAll('#year').forEach(function(el){
   if(reduceMotion || window.innerWidth < 900) return;
 
   var hero = document.getElementById('hero');
+  if (!hero) return;
   hero.addEventListener('mousemove', function(e){
     var rect = hero.getBoundingClientRect();
     var x = (e.clientX - rect.left) / rect.width - 0.5;
