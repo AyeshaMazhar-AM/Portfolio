@@ -1082,12 +1082,17 @@ ul { margin: 0; padding: 0; list-style: none; }
 }
 
 .reveal {
+  opacity: 1;
+  transform: none;
+}
+
+.js-enabled .reveal {
   opacity: 0;
   transform: translateY(18px);
   transition: opacity 0.6s ease, transform 0.6s ease;
 }
 
-.reveal.in-view {
+.js-enabled .reveal.in-view {
   opacity: 1;
   transform: none;
 }

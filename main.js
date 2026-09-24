@@ -2,6 +2,8 @@
 // Ayesha Mazhar — Portfolio JS
 // =========================================================
 
+document.documentElement.classList.add('js-enabled');
+
 // ---- Footer year ----
 document.querySelectorAll('#year').forEach(function(el){
   el.textContent = new Date().getFullYear();
