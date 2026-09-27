@@ -63,7 +63,6 @@ button { cursor: pointer; }
   padding: 94px 0;
   border-top: 1px solid var(--line);
 }
-
 .page-shell {
   min-height: 100vh;
 }
